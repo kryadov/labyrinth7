@@ -48,8 +48,6 @@ java {
 
 application {
     mainClass.set("com.kayar.yetanotherlabyrinth.LabyrinthApp")
-    // Align with jlink merged module name to satisfy plugin checks
-    mainModule.set("com.kayar.yetanotherlabyrinth.merged.module")
 }
 
 // Configure Shadow JAR to produce a single executable file with all dependencies
